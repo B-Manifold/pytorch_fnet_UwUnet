@@ -1,4 +1,4 @@
-# Label-free prediction of three-dimensional fluorescence images from transmitted light microscopy
+# U-within-U-Net: A Versatile Deep Learning Architecture for Anlysis of Hyperspectral Images
 ![Combined outputs](doc/PredictingStructures-1.jpg?raw=true "Combined outputs")
 
 ## System Requirements

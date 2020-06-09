@@ -1,10 +1,9 @@
 # U-within-U-Net: A Versatile Deep Learning Architecture for Anlysis of Hyperspectral Images
-![Combined outputs](doc/PredictingStructures-1.jpg?raw=true "Combined outputs")
 
 ## System Requirements
-Installing on Linux is recommended (we have used Ubuntu 18.04).
+Installing on Linux is recommended (Our machine runs Ubuntu 18.04).
 
-An nVIDIA graphics card with >10GB of ram (we have used an nVIDIA Titan RTX).
+An nVIDIA graphics card with >10GB of ram (Our machine is equipped with an nVIDIA Titan RTX).
 
 ## Installation
 ### Environment setup

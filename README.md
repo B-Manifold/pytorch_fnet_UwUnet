@@ -35,14 +35,14 @@ Create a 2 column csv file where the first row contains "path_signal,path_target
 Edit the /scripts/train_model_2d.sh file to the desired training parameters. Edit the /fnet/data/bufferedpatchdataset.py file to match the patch size used in train_model_2d.sh. Edit the fnet/nn_modules/fnet_nn_2d.py file to match the desired initial, intermediate, and final channel size for the images.
 
 Once all parameters have been set execute:
-'''shell
+```shell
 ./scripts/train_model_2d.sh my_model 0
-'''
+```
 
 Once you have trained a model you can execute:
-'''shell
+```shell
 ./scripts/predict_2d.sh my_model 0
-'''
+```
 to predict the withheld test images and the training images.
 
 To use the trained model on new data, edit the test.csv or train.csv file to the desired path to files then reexecute the above script.

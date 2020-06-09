@@ -22,12 +22,33 @@ conda activate fnet
 ```
 The installation was successful if the script executes without errors.
 
+If installation continues to fail, try downloading the original pytorch-fnet-release_1 repository and replacing bufferedpatchdataset.py and fnet_nn_2d.py in that repo with the same files from this repo.
+
 ## Data
 Data is available upon request from danfu@uw.edu or bmanifol@uw.edu
 
-## Instructions to train models on your data
+## Instructions to training/utilizing UwU-Net models on your data
+See the AllenCellModeling/pytorch-fnet-release_1 github and readme for other basic functions and training of traditional U-Nets.
 
-## Citation
+Create a 2 column csv file where the first row contains "path_signal,path_target". Then in each column place the corresponding path-to-files for the images to be used for model training. Save the file with the intended model name my_model.csv to the /data/csvs/ folder
+
+Edit the /scripts/train_model_2d.sh file to the desired training parameters. Edit the /fnet/data/bufferedpatchdataset.py file to match the patch size used in train_model_2d.sh. Edit the fnet/nn_modules/fnet_nn_2d.py file to match the desired initial, intermediate, and final channel size for the images.
+
+Once all parameters have been set execute:
+'''shell
+./scripts/train_model_2d.sh my_model 0
+'''
+
+Once you have trained a model you can execute:
+'''shell
+./scripts/predict_2d.sh my_model 0
+'''
+to predict the withheld test images and the training images.
+
+To use the trained model on new data, edit the test.csv or train.csv file to the desired path to files then reexecute the above script.
+
+Note: reexecuting the prediction will require no existing folder for the model results in the /results/ folder. Rename precious executions to have the model continue predicting.
+
 
 ## Allen Institute Software License
 This software license is the 2-clause BSD license plus clause a third clause that prohibits redistribution and use for commercial purposes without further permission.   

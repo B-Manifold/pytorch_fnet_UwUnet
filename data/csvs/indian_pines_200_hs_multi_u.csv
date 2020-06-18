@@ -1,0 +1,8 @@
+path_signal,path_target
+/home/gigo/pytorch_fnet_UwU/data/Indian_Pines/train_signal/ip1.tif,/home/gigo/pytorch_fnet_UwU/data/Indian_Pines/train_target/ipgt1.tif
+/home/gigo/pytorch_fnet_UwU/data/Indian_Pines/train_signal/ip2.tif,/home/gigo/pytorch_fnet_UwU/data/Indian_Pines/train_target/ipgt2.tif
+/home/gigo/pytorch_fnet_UwU/data/Indian_Pines/train_signal/ip3.tif,/home/gigo/pytorch_fnet_UwU/data/Indian_Pines/train_target/ipgt3.tif
+/home/gigo/pytorch_fnet_UwU/data/Indian_Pines/train_signal/ip4.tif,/home/gigo/pytorch_fnet_UwU/data/Indian_Pines/train_target/ipgt4.tif
+/home/gigo/pytorch_fnet_UwU/data/Indian_Pines/train_signal/ip5.tif,/home/gigo/pytorch_fnet_UwU/data/Indian_Pines/train_target/ipgt5.tif
+/home/gigo/pytorch_fnet_UwU/data/Indian_Pines/train_signal/ip6.tif,/home/gigo/pytorch_fnet_UwU/data/Indian_Pines/train_target/ipgt6.tif
+/home/gigo/pytorch_fnet_UwU/data/Indian_Pines/train_signal/ip7.tif,/home/gigo/pytorch_fnet_UwU/data/Indian_Pines/train_target/ipgt7.tif

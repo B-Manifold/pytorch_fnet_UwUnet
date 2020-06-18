@@ -1,0 +1,2 @@
+path_signal,path_target
+/home/gigo/pytorch_fnet_UwU/data/Indian_Pines/train_signal/ip7.tif,/home/gigo/pytorch_fnet_UwU/data/Indian_Pines/train_target/ipgt7.tif

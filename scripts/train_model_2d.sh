@@ -1,7 +1,7 @@
 #!/bin/bash -x
 
 DATASET=${1:-LMmed}
-BUFFER_SIZE=8 #originally 8, patch_size origianlly 256 256
+BUFFER_SIZE=6 #originally 8, patch_size origianlly 256 256
 N_ITER=50000
 RUN_DIR="saved_models/${DATASET}"
 PATH_DATASET_ALL_CSV="data/csvs/${DATASET}.csv"
@@ -18,7 +18,7 @@ python train_model.py \
        --class_dataset TiffDataset \
        --transform_signal fnet.transforms.normalize \
        --transform_target fnet.transforms.normalize \
-       --patch_size 256 256 \
+       --patch_size 64 64 \
        --batch_size 32 \
        --buffer_size ${BUFFER_SIZE} \
        --buffer_switch_frequency 16000 \

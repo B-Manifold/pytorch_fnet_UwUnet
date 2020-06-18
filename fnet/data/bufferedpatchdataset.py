@@ -120,8 +120,8 @@ class BufferedPatchDataset(FnetDataset):
         
         #Set parameters here
         patch_size = 256 #dimension of the patch to be sampled in x or y
-        spec_channels = 100 #number of channels in starting tiff
-        final_channels = 1 #number of channels in final tiff
+        spec_channels = 200 #number of channels in starting tiff
+        final_channels = 17 #number of channels in final tiff
         
         start_0 = np.random.randint(0, patch_size)
         start_1 = np.random.randint(0, patch_size)

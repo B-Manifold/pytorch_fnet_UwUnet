@@ -6,8 +6,8 @@ class Net(torch.nn.Module):
         super().__init__()
         mult_chan = 32
         depth = 4
-        starting_chan = 100
-        intermediate_chan = 50
+        starting_chan = 200
+        intermediate_chan = 100
         final_chan = 1
         self.spec_conv = SubNet2Conv(starting_chan,intermediate_chan) #First Spectral Channel Convoultions
         self.spec_down_conv = SubNet2Conv(intermediate_chan, final_chan) #Second spectral Channel Convolutions

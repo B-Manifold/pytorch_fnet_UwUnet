@@ -8,7 +8,7 @@ class Net(torch.nn.Module):
         depth = 4
         starting_chan = 200
         intermediate_chan = 100
-        final_chan = 1
+        final_chan = 17
         self.spec_conv = SubNet2Conv(starting_chan,intermediate_chan) #First Spectral Channel Convoultions
         self.spec_down_conv = SubNet2Conv(intermediate_chan, final_chan) #Second spectral Channel Convolutions
         self.spec_down_down_conv = SubNet2Conv(final_chan,1) #Third Spectral Channel Convolution to reduce to 1 channel

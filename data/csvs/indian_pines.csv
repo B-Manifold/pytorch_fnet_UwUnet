@@ -1,0 +1,8 @@
+path_signal,path_target
+PATH/data/Indian_Pines/train_signal/ip1.tif,PATH/data/Indian_Pines/train_target/ipgt1.tif
+PATH/data/Indian_Pines/train_signal/ip2.tif,PATH/data/Indian_Pines/train_target/ipgt2.tif
+PATH/data/Indian_Pines/train_signal/ip3.tif,PATH/data/Indian_Pines/train_target/ipgt3.tif
+PATH/data/Indian_Pines/train_signal/ip4.tif,PATH/data/Indian_Pines/train_target/ipgt4.tif
+PATH/data/Indian_Pines/train_signal/ip5.tif,PATH/data/Indian_Pines/train_target/ipgt5.tif
+PATH/data/Indian_Pines/train_signal/ip6.tif,PATH/data/Indian_Pines/train_target/ipgt6.tif
+PATH/data/Indian_Pines/train_signal/ip7.tif,PATH/data/Indian_Pines/train_target/ipgt7.tif

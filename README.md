@@ -3,12 +3,12 @@
 ## System Requirements
 Installing on Linux is recommended (Our machine runs Ubuntu 18.04).
 
-An nVIDIA graphics card with >10GB of ram (Our machine is equipped with an nVIDIA Titan RTX).
+An nVIDIA graphics card with >10GB of GPU memory (Our machine is equipped with an nVIDIA Titan RTX with 24GB of memory).
 
 ## Installation
 ### Environment setup
-- Install [Miniconda](https://conda.io/miniconda.html) if necessary.
-- Create a Conda environment for the platform:
+- Install [Miniconda](https://conda.io/miniconda.html) or Anaconda if necessary.
+- Create a Conda environment for the platform and install all the necessary dependencies:
 ```shell
 conda env create -f environment.yml
 ```

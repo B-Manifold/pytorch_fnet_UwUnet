@@ -24,6 +24,9 @@ The installation was successful if the script executes without errors.
 
 If installation continues to fail, try downloading the original pytorch-fnet-release_1 repository and replacing bufferedpatchdataset.py and fnet_nn_2d.py in that repo with the same files from this repo.
 
+## Training Indian Pines with provided data
+
+
 ## Data
 Data is available upon request from danfu@uw.edu or bmanifol@uw.edu
 

@@ -29,19 +29,20 @@ To try training an indian pines prediction model with the provided data:
 - Make sure the fnet environment is active
 - Change the indian_pines.csv file in /data/csvs/ so the "PATH" is the actual path in your directory
 - try executing the script:
+
 ```shell
 ./scripts/test_indian_pines.sh indian_pines 0
 ```
 If successful, it should run the training for 500 iterations and then stop
 
-Once you have a lightly trained model try adding the line:
+Once you have a quickly trained model try adding the line:
 - PATH/data/Indian_Pines/indian_pines_200chan.tif,PATH/data/Indian_Pines/IP_gt_multichan_invert.tif
 to the bottom of test.csv in /data/csvs/indian_pines/
 
 Then try executing:
 ```shell
 ./scripts/predict_model_2d.sh indian_pines 0
-'''
+```
 This should predict all the test and training images into the /results/ folder which you can then view. The prediction should not be good after only 500 iterations. If you want to train a more robust model change test_indian_pines.sh so that 50000 iterations occur rather than 500 then run the same command to execute training. This will take a few hours depending on your hardware.
 
 

@@ -12,7 +12,7 @@ cd $(cd "$(dirname ${BASH_SOURCE})" && pwd)/..
 
 python scripts/python/split_dataset.py ${PATH_DATASET_ALL_CSV} "data/csvs" -v
 python train_model.py \
-       --nn_module fnet_nn_2d \
+       --nn_module fnet_nn_UwU \
        --n_iter ${N_ITER} \
        --path_dataset_csv ${PATH_DATASET_TRAIN_CSV} \
        --class_dataset TiffDataset \

@@ -41,7 +41,7 @@ to the bottom of test.csv in /data/csvs/indian_pines/
 
 Then try executing:
 ```shell
-./scripts/predict_model_2d.sh indian_pines 0
+./scripts/predict_model_UwU.sh indian_pines 0
 ```
 This should predict all the test and training images into the /results/ folder which you can then view. The prediction should not be good after only 500 iterations. If you want to train a more robust model change test_indian_pines.sh so that 50000 iterations occur rather than 500 then run the same command to execute training. This will take a few hours depending on your hardware.
 
@@ -58,12 +58,12 @@ Edit the /scripts/train_model_2d.sh file to the desired training parameters. Edi
 
 Once all parameters have been set execute:
 ```shell
-./scripts/train_model_2d.sh my_model 0
+./scripts/train_model_UwU.sh my_model 0
 ```
 
 Once you have trained a model you can execute:
 ```shell
-./scripts/predict_2d.sh my_model 0
+./scripts/predict_UwU.sh my_model 0
 ```
 to predict the withheld test images and the training images.
 

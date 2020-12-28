@@ -47,7 +47,10 @@ This should predict all the test and training images into the /results/ folder w
 
 
 ## Data
-Data is available upon request from danfu@uw.edu or bmanifol@uw.edu
+The Indian Pines dataset used can be found at: https://engineering.purdue.edu/~biehl/MultiSpec/hyperspectral.html
+The MSI dataset used can be found at: https://www.ebi.ac.uk/pride/archive/projects/PXD016146
+The Hypsepctral SRS/Fluorescence dataset can be found at: DOI: 10.6084/m9.figshare.13497138
+
 
 ## Instructions to training/utilizing UwU-Net models on your data
 See the AllenCellModeling/pytorch-fnet-release_1 github and readme for other basic functions and training of traditional U-Nets.

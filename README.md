@@ -1,4 +1,4 @@
-# U-within-U-Net: A Versatile Deep Learning Architecture for Anlysis of Hyperspectral Images
+# U-within-U-Net: A Versatile Deep Learning Architecture for Analysis of Hyperspectral Images
 
 ## System Requirements
 Installing on Linux is recommended (Our machine runs Ubuntu 18.04).

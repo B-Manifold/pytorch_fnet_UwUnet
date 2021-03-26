@@ -59,7 +59,7 @@ See the AllenCellModeling/pytorch-fnet-release_1 github and readme for other bas
 
 Create a 2 column csv file where the first row contains "path_signal,path_target". Then in each column place the corresponding path-to-files for the images to be used for model training. Save the file with the intended model name my_model.csv to the /data/csvs/ folder
 
-Edit the /scripts/train_model_2d.sh file to the desired training parameters. Edit the /fnet/data/bufferedpatchdataset.py file to match the patch size used in train_model_2d.sh. Edit the fnet/nn_modules/fnet_nn_2d.py file to match the desired initial, intermediate, and final channel size for the images.
+Edit the /scripts/train_model_2d.sh file to the desired training parameters. Edit the /fnet/data/bufferedpatchdataset.py file to match the patch size used in train_model_UwU.sh. Edit the fnet/nn_modules/fnet_nn_UwU.py file to match the desired initial, intermediate, and final channel size for the images and select the correct return line in forward() to match the chosen output channel dimensions.
 
 Once all parameters have been set execute:
 ```shell

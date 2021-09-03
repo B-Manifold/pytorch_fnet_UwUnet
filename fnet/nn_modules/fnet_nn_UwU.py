@@ -32,10 +32,10 @@ class Net(torch.nn.Module):
         x_spec_prepool = self.spec_final(x_spec_down)
         
         #if final_chan == 1 use this return statement
-        return torch.squeeze(self.spec_final_pool(x_spec_prepool),1) #This corrects an error in bufferedpatchdataset.py that doesn't like the mismatch of tensor dimensions
+        #return torch.squeeze(self.spec_final_pool(x_spec_prepool),1) #This corrects an error in bufferedpatchdataset.py that doesn't like the mismatch of tensor dimensions
 
         #otherwise (i.e. final_chan > 1) use this return statement
-        #return x_spec_prepool
+        return x_spec_prepool
 
 class _UwU_net(torch.nn.Module):
     def __init__(self, n_in_channels, n_out_channels, inter=0, inter_inter=0, inter_inter_inter=0, depth=4):
